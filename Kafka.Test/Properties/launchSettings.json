@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Kafka.Test": {
+      "commandName": "Project"
+    }
+  }
+}
