@@ -51,6 +51,10 @@ You can then make sure it is running with this request:
 curl --location --request GET 'localhost:8083/connectors/mystore-connector/status' \
 --header 'Accept: application/json'
 ```
+Finally, you must add the following line to your hosts file (```c:\Windows\System32\Drivers\etc\hosts```):
+```
+127.0.0.1       kafka
+```
 
 ### Running
 Now you can run the project.
