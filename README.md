@@ -51,7 +51,7 @@ You can then make sure it is running with this request:
 curl --location --request GET 'localhost:8083/connectors/mystore-connector/status' \
 --header 'Accept: application/json'
 ```
-Finally, you must add the following line to your hosts file (```c:\Windows\System32\Drivers\etc\hosts```):
+Finally, you must add the following line to your hosts file (edit ```c:\Windows\System32\Drivers\etc\hosts``` with an elevated notepad):
 ```
 127.0.0.1       kafka
 ```
